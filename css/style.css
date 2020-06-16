@@ -1,0 +1,31 @@
+.btn:focus {
+    outline: none !important;
+}
+
+.btn:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+.navbar-brand {
+    color: red;
+}
+
+@media(max-width:768px) {
+    .about-page {
+        height: 850px;
+    }
+    .achievent {
+        height: 620px;
+    }
+}
+
+@media(min-width:768px) {
+    .about-page {
+        height: 200px;
+    }
+    .achievent {
+        height: 250px;
+    }
+}
